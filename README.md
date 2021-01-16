@@ -4,8 +4,8 @@
 ## Cuprins
 1. [Introducere](#introducere)
 2. [Mod de utilizare](#modutilizare)
-    * [Exemplu fisier de intrare](#exemplufisier)
-3. [Diagrame UML](#diagrameuml)
+    * [Exemplu fisier de intrare](#exemplu fisier)
+3. [Diagrame UML](#diagrame uml)
     * [Diagrama de clase](#clase)
     * [Diagrama de activitati](#activitati)
 4. [Realizator](#autor)
