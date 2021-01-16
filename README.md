@@ -26,6 +26,13 @@ ID#NumeleOrasului#Latitudine#Longitudine#CodulTarii.
 
 ## Diagrame UML
 
+###Diagrama de activitati
+![][activitati]
+[activitati]: src/main/resources/diagrame_uml/diagrama_activitati.png
+
+###Diagrama de clase
+![][clase]
+[clase]: main/src/main/resources/diagrame_uml/diagrama_clase.png
 
 ## Realizator
 Nume:	Mihail-Vicentiu DUMITRU<br/>
