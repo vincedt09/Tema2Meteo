@@ -1,0 +1,259 @@
+Afghanistan#AF
+Albania#AL
+Algeria#DZ
+American Samoa#AS
+Andorra#AD
+Angola#AO
+Anguilla#AI
+Antarctica#AQ
+Antigua and Barbuda#AG
+Argentina#AR
+Armenia#AM
+Aruba#AW
+Australia#AU
+Austria#AT
+Azerbaijan#AZ
+Bahamas#BS
+Bahrain#BH
+Bangladesh#BD
+Barbados#BB
+Belarus#BY
+Belgium#BE
+Belgium-Luxembourg#BE
+Belize#BZ
+Benin#BJ
+Bermuda#BM
+Bhutan#BT
+Plurinational State of Bolivia#BO
+Bonaire, Saint Eustatius and Saba#BQ
+Bosnia Herzegovina#BA
+Botswana#BW
+British Indian Ocean Territories#IO
+British Virgin Islands#VG
+Brazil#BR
+Brunei Darussalam#BN
+Bulgaria#BG
+Burkina Faso#BF
+Burundi#BI
+Cabo Verde#CV
+Cambodia#KH
+Cameroon#CM
+Canada#CA
+Cayman Islands#KY
+Central African Republic#CF
+Chad#TD
+Chile#CL
+China#CN
+China, Hong Kong Special Administrative Region#HK
+China, Macao Special Administrative Region#MO
+Christmas Islands#CX
+Cocos Islands#CC
+Colombia#CO
+Comoros#KM
+Congo#CG
+Cook Islands#CK
+Costa Rica#CR
+Côte d'Ivoire#CI
+Croatia#HR
+Cuba#CU
+Curaçao#CW
+Cyprus#CY
+Czechia#CZ
+Czechoslovakia#CS
+Democratic People's Republic of Korea#KP
+Democratic Republic of the Congo#CD
+Denmark#DK
+Djibouti#DJ
+Dominica#DM
+Dominican Republic#DO
+East and West Pakistan#PK
+Ecuador#EC
+Egypt#EG
+El Salvador#SV
+Equatorial Guinea#GQ
+Eritrea#ER
+Estonia#EE
+Ethiopia#ET
+EU-28#EU
+Faeroe Islands#FO
+Falkland Islands (Malvinas)#FK
+Fiji#FJ
+Finland#FI
+Former Arab Republic of Yemen#YE
+Former Democratic Republic of Germany#DD
+Former Democratic Republic of Vietnam#VD
+Former Democratic Yemen#YD
+Former Ethiopia#ET
+Former Pacific Islands#PC
+Former Panama, excluding Canal Zone#PA
+Former Panama-Canal-Zone#PZ
+Former Republic of Vietnam#VN
+Former Sudan#SD
+Former USSR#SU
+Former Yugoslavia#YU
+French South Antarctic Territories#FQ
+France, Monaco#FR
+French Guiana#GF
+French Polynesia#PF
+Federated State of Micronesia#FM
+Gabon#GA
+Gambia#GM
+Georgia#GE
+Germany#DE
+Ghana#GH
+Gibraltar#GI
+Greece#GR
+Greenland#GL
+Grenada#GD
+Guadeloupe#GP
+Guam#GU
+Guatemala#GT
+Guinea#GN
+Guinea-Bissau#GW
+Guyana#GY
+Haiti#HT
+Heard Island and McDonald Islands#HM
+Holy See (Vatican City State)#VA
+Honduras#HN
+Hungary#HU
+Iceland#IS
+India#IN
+India, excluding Sikkim#IN
+Indonesia#ID
+Iran#IR
+Iraq#IQ
+Ireland#IE
+Israel#IL
+Italy#IT
+Jamaica#JM
+Japan#JP
+Jordan#JO
+Kazakhstan#KZ
+Kenya#KE
+Kiribati#KI
+Kuwait#KW
+Kyrgyzstan#KG
+Lao People's Dem. Rep.#LA
+Latvia#LV
+Lebanon#LB
+Lesotho#LS
+Liberia#LR
+Libya#LY
+Lithuania#LT
+Luxembourg#LU
+Madagascar#MG
+Malawi#MW
+Malaysia#MY
+Maldives#MV
+Mali#ML
+Malta#MT
+Marshall Islands#MH
+Martinique#MQ
+Mauritania#MR
+Mauritius#MU
+Mayotte#YT
+Mexico#MX
+Mongolia#MN
+Montenegro#ME
+Montserrat#MS
+Morocco#MA
+Mozambique#MZ
+Myanmar#MM
+Northern Mariana Islands#MP
+Namibia#NA
+Nauru#NR
+Nepal#NP
+Netherlands Antilles#AN
+Netherlands Antilles and Aruba#AN
+Netherlands#NL
+New Caledonia#NC
+New Zealand#NZ
+Nicaragua#NI
+Niger#NE
+Nigeria#NG
+Niue#NU
+Norfolk Islands#NF
+Pakistan#PK
+Palau#PW
+Panama#PA
+Papua New Guinea#PG
+Paraguay#PY
+Peru#PE
+Philippines#PH
+Pitcairn#PN
+Poland#PL
+Portugal#PT
+Qatar#QA
+Republic of Korea#KR
+Republic of Moldova#MD
+Réunion#RE
+Romania#RO
+Russian Federation#RU
+Rwanda#RW
+Saint Barthélemy#BL
+Saint Helena#SH
+Saint Kitts and Nevis#KN
+Saint Kitts, Nevis and Anguilla#KN
+Saint Lucia#LC
+Saint Maarten (Dutch part)#SX
+Saint Pierre and Miquelon#PM
+Saint Vincent and the Grenadines#VC
+Samoa#WS
+San Marino#SM
+Sao Tome and Principe#ST
+Saudi Arabia#SA
+Senegal#SN
+Serbia#RS
+Serbia and Montenegro#CS
+Seychelles#SC
+Sierra Leone#SL
+Singapore#SG
+Slovakia#SK
+Slovenia#SI
+Southern African Customs Union#ZA
+Solomon Islands#SB
+Somalia#SO
+South Africa#ZA
+South Georgia and the South Sandwich Islands#GS
+South Sudan#SS
+Spain#ES
+Sri Lanka#LK
+State of Palestine#PS
+Sudan#SD
+Suriname#SR
+Swaziland#SZ
+Sweden#SE
+Switzerland, Liechtenstein#CH
+Syria#SY
+Tajikistan#TJ
+The Former Yugoslav Republic of Macedonia#MK
+Thailand#TH
+Timor-Leste#TL
+Togo#TG
+Tokelau#TK
+Tonga#TO
+Trinidad and Tobago#TT
+Tunisia#TN
+Turkey#TR
+Turkmenistan#TM
+Turks and Caicos Islands#TC
+Tuvalu#TV
+Uganda#UG
+Ukraine#UA
+United Arab Emirates#AE
+United Kingdom#GB
+United Republic of Tanzania#TZ
+United States Minor Outlying Islands#UM
+Uruguay#UY
+US Virgin Islands#VI
+USA and Puerto Rico#US
+Uzbekistan#UZ
+Vanuatu#VU
+Venezuela#VE
+Viet Nam#VN
+Wallis and Futuna Islands#WF
+Western Sahara#EH
+World#WL
+Yemen#YE
+Zambia#ZM
+Zimbabwe#ZW
