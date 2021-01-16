@@ -24,9 +24,9 @@ ID#NumeleOrasului#Latitudine#Longitudine#CodulTarii.
 2973393#Tarascon#43.805828#4.660280#FR<br/>
 2986678#Ploufragan#48.491409#-2.794580#FR<br/>
 
-##Diagrame UML
+## Diagrame UML
 
 
-##Realizator
-Nume:	Mihail-Vicentiu DUMITRU
+## Realizator
+Nume:	Mihail-Vicentiu DUMITRU<br/>
 Grupa:	C124
