@@ -27,10 +27,10 @@ ID#NumeleOrasului#Latitudine#Longitudine#CodulTarii.
 ## Diagrame UML
 
 ### Diagrama de activitati
-![](src/main/resources/diagrame_uml/diagrama_activitati.png)
+![alt text](src/main/resources/diagrame_uml/diagrama_activitati.png)
 
 ### Diagrama de clase
-![](main/src/main/resources/diagrame_uml/diagrama_clase.png)
+![alt text](src/main/resources/diagrame_uml/diagrama_clase.png)
 
 ## Realizator
 Nume:	Mihail-Vicentiu DUMITRU<br/>
