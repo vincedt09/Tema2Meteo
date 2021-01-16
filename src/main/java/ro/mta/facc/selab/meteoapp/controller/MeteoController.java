@@ -1,7 +1,6 @@
 package ro.mta.facc.selab.meteoapp.controller;
 
 import ca.fuzzlesoft.JsonParse;
-//import com.google.gson.JsonObject;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -19,22 +18,13 @@ import com.eclipsesource.json.JsonArray;
 import com.eclipsesource.json.JsonObject;
 
 import org.apache.commons.io.IOUtils;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 
 import ro.mta.facc.selab.meteoapp.model.CityCode;
 import ro.mta.facc.selab.meteoapp.model.MeteoModel;
 
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-
 import java.io.*;
 import java.net.*;
 import java.text.ParseException;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.*;
 import java.lang.*;
 import java.text.*;
@@ -91,39 +81,7 @@ public class MeteoController {
 
                 String delimitator = "#";
                 String[] columns = line.split(delimitator);
-/*
-                if(columns[4].equals("RO")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "ROMANIA"));
-                }
-                if(columns[4].equals("GB")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "ENGLAND"));
-                }
-                if(columns[4].equals("RU")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "RUSSIA"));
-                }
-                if(columns[4].equals("FR")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "FRANCE"));
-                }
-                if(columns[4].equals("CH")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "SWITZERLAND"));
-                }
-                if(columns[4].equals("IT")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "ITALIA"));
-                }
-                if(columns[4].equals("PL")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "POLAND"));
-                }
-                if(columns[4].equals("ESP")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "SPAIN"));
-                }
-                if(columns[4].equals("US")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "UNITED STATES"));
-                }
-                if(columns[4].equals("DE")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "GERMANY"));
-                }
 
-*/
                 weather_data.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], columns[4]));
                 line = in.readLine();
             }
