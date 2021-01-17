@@ -79,39 +79,7 @@ public class MeteoController {
 
                 String delimitator = "#";
                 String[] columns = line.split(delimitator);
-/*
-                if(columns[4].equals("RO")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "ROMANIA"));
-                }
-                if(columns[4].equals("GB")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "ENGLAND"));
-                }
-                if(columns[4].equals("RU")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "RUSSIA"));
-                }
-                if(columns[4].equals("FR")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "FRANCE"));
-                }
-                if(columns[4].equals("CH")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "SWITZERLAND"));
-                }
-                if(columns[4].equals("IT")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "ITALIA"));
-                }
-                if(columns[4].equals("PL")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "POLAND"));
-                }
-                if(columns[4].equals("ESP")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "SPAIN"));
-                }
-                if(columns[4].equals("US")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "UNITED STATES"));
-                }
-                if(columns[4].equals("DE")) {
-                    meteoModel.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], "GERMANY"));
-                }
 
-*/
                 weather_data.add(new MeteoModel(columns[0], columns[1], columns[2], columns[3], columns[4]));
                 line = in.readLine();
             }
