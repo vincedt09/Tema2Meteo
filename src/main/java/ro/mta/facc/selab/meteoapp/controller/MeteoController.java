@@ -1,13 +1,9 @@
 package ro.mta.facc.selab.meteoapp.controller;
 
-import ca.fuzzlesoft.JsonParse;
-//import com.google.gson.JsonObject;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+
 import javafx.fxml.FXML;
-import java.awt.*;
-import java.awt.event.ActionEvent;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
@@ -19,25 +15,15 @@ import com.eclipsesource.json.JsonArray;
 import com.eclipsesource.json.JsonObject;
 
 import org.apache.commons.io.IOUtils;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 
 import ro.mta.facc.selab.meteoapp.model.CityCode;
 import ro.mta.facc.selab.meteoapp.model.MeteoModel;
 
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
-
 import java.io.*;
 import java.net.*;
 import java.text.ParseException;
-import java.time.Instant;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.*;
 import java.lang.*;
-import java.text.*;
 
 /**
  *Clasa care face parte din arhitectura MVC.
@@ -64,6 +50,8 @@ public class MeteoController {
     private Label info_time;
     @FXML
     private Label info_wind;
+    @FXML
+    private Label info_press;
     @FXML
     private ImageView id_stare;
     @FXML
@@ -237,34 +225,40 @@ public class MeteoController {
 
         BufferedReader reader1 = new BufferedReader(new InputStreamReader(connection.getInputStream()));
         String obj1 = IOUtils.toString(reader1);
-        Object object = new JSONParser().parse(obj1);
-        JSONObject aux = (JSONObject) object;
+        //Object object = new JSONParser().parse(obj1);
+        //JSONObject aux = (JSONObject) object;
 
 
         /**
          *  Se extrag detalii legate de temepratura
          *  si se introduc in Label-ul destinat temeraturii
          */
-        JsonObject temp_json = Json.parse(obj1).asObject().get("main").asObject();
-        float temp1 = temp_json.getFloat("temp", 0);
-        info_temp.setText(String.valueOf(temp1 + " °C"));
+        JsonObject main_json = Json.parse(obj1).asObject().get("main").asObject();
+        float temp1 = main_json.getFloat("temp", 0);
+        info_temp.setText(String.valueOf(temp1 + "°C"));
 
 
         /**
          *  Se extrag detalii legate de umiditate
          *  si se introduc in Label-ul destinat umiditatii
          */
-        JsonObject hum_json = Json.parse(obj1).asObject().get("main").asObject();
-        int hum1 = hum_json.getInt("humidity", 0);
+        int hum1 = main_json.getInt("humidity", 0);
         info_umiditate.setText(String.valueOf(hum1 + "%"));
+
+        /**
+         *  Se extrag detalii legate de umiditate
+         *  si se introduc in Label-ul destinat umiditatii
+         */
+        int press1 = main_json.getInt("pressure", 0);
+        info_press.setText(String.valueOf(press1 + "hPa"));
 
         /**
          *  Se extrag detalii legate de viteza vantului
          *  si se introduc in Label-ul destinat vitezei vantului
          */
         JsonObject wind_json = Json.parse(obj1).asObject().get("wind").asObject();
-        double wind1 = wind_json.getDouble("speed", 0);
-        info_wind.setText(String.valueOf(wind1 + "m/s"));
+        double speed = wind_json.getDouble("speed", 0);
+        info_wind.setText(String.valueOf(speed + "m/s"));
 
         /**
          *  In acest Label va fi afisat numele tarii si orasului selectat
@@ -286,8 +280,8 @@ public class MeteoController {
          *  Se obtine iconita specifica vremii si este afisata cu
          *  ajutorul ImageView.
          */
-        JsonArray main_json = Json.parse(obj1).asObject().get("weather").asArray();
-        String icon1 = main_json.get(0).asObject().getString("icon", "Unknown Item");
+        JsonArray weather_json = Json.parse(obj1).asObject().get("weather").asArray();
+        String icon1 = weather_json.get(0).asObject().getString("icon", "Unknown Item");
         String icon11 = "http://openweathermap.org/img/wn/" + icon1 + "@2x.png";
         Image icon_img = new Image(icon11, true);
         id_stare.setImage(icon_img);
@@ -298,7 +292,7 @@ public class MeteoController {
          *  Se extrag informatii cu privire la descrierea meteorologica
          *  si se introduc in Label-ul destinat acestora.
          */
-        String descriere1 = main_json.get(0).asObject().getString("description", "Unknown Item");
+        String descriere1 = weather_json.get(0).asObject().getString("description", "Unknown Item");
         info_stare.setText(descriere1);
 
         /**
