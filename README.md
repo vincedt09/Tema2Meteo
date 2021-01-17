@@ -15,8 +15,8 @@ Acest repositoy contine o aplicatie JavaFX care ofera utilizatorului, pe baza op
 
 ## Mod de utilizare
 Aplicatia se bazeaza pe un fisier de input care contine datele de localizare ale oraselor.
-Aceste date trebuie sa se regaseasca in fisierul **_src/main/resources/input.txt_** in urmatoarea ordine unde simbolul '#' reprezinta caracterul delimitator:
-ID#NumeleOrasului#Latitudine#Longitudine#CodulTarii.
+Aceste date trebuie sa se regaseasca in fisierul **_src/main/resources/input.txt_** in urmatoarea ordine:
+ID#NumeleOrasului#Latitudine#Longitudine#CodulTarii, unde simbolul '#' reprezinta caracterul delimitator
 
 ### Exemplu fisier de intrare
 ```
